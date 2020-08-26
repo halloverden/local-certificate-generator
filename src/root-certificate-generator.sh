@@ -37,7 +37,7 @@ fi
 #=============================================================================
 # Generating
 echo "Generating key..."
-openssl genrsa -des3 -out "${config[GEN_FOLDER]}"/"$keyName".key 2048
+openssl genrsa -des3 -out "${config[GEN_FOLDER]}"/"$rootCertName".key 2048
 echo "Generating certificate..."
-openssl req -x509 -new -nodes -key "${config[GEN_FOLDER]}"/"$keyName".key -sha256 -days 1024 -out "${config[GEN_FOLDER]}"/"$keyName".pem
+openssl req -x509 -new -nodes -key "${config[GEN_FOLDER]}"/"$rootCertName".key -sha256 -days 1024 -out "${config[GEN_FOLDER]}"/"$rootCertName".pem
 #=============================================================================
