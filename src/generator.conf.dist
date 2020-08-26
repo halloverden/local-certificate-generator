@@ -1,0 +1,18 @@
+# Uncomment options you want to override
+#DEFAULT_ROOT_CA_NAME=rootCA
+
+# Defaults for signed certificates
+#DEFAULT_C=NO
+#DEFAULT_ST=Some State
+#DEFAULT_L=Some City
+#DEFAULT_O=Some Organization
+#DEFAULT_OU=Some Organizational Unit
+#DEFAULT_EMAIL_ADDRESS=someone@somewhere.local
+#DEFAULT_CN=
+# Comma separated list of alt names
+#DEFAULT_ALT_NAMES=
+
+# You don't have to change these, but they're here if you need them
+#GEN_FOLDER=generated
+#TMP_CSR_FILENAME=tmp_server.csr.cnf
+#TMP_V3_FILENAME=tmp_v3.ext
